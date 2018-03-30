@@ -1,0 +1,73 @@
+body{
+    background-color: gainsboro;
+    width: 100%;
+    margin: 0;
+}
+
+header{
+    background-color: beige;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+
+nav{
+    height: 100%;
+    width: 60px;
+}
+
+.fa-bars{
+    font-size: 50px;
+    position: absolute;
+    top: 5px;
+    left: 7px;
+}
+
+.field{
+    width: 100%;
+    min-width: 750px;
+    height: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+.d-pad{
+    height: 7.5em;
+    width: 7.5em;
+    position: absolute;
+    top: 60px;
+    right: 15%;
+}
+
+.button{
+    width: 2.5em;
+    height: 2.5em;
+    background-color: #404040;
+    position: absolute;
+}
+
+.up{
+    border-radius: 0.5em 0.5em 0 0;
+    top: 0;
+    left: 2.5em;
+}
+.right{
+    border-radius: 0 0.5em 0.5em 0;
+    top: 2.5em;
+    right: 0;
+}
+.down{
+    border-radius: 0 0 0.5em 0.5em;
+    bottom: 0;
+    left: 2.5em;
+}
+.left{
+    border-radius: 0.5em 0 0 0.5em;
+    top: 2.5em;
+    left: 0;
+}
+.mid{
+    top: 2.5em;
+    left: 2.5em;
+    box-shadow: 0 0 10px -5px dimgray inset;
+}
