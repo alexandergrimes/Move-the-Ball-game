@@ -11,10 +11,28 @@ header{
     position: fixed;
 }
 
-nav{
+.nav{
     height: 100%;
     width: 60px;
 }
+
+.nav:hover{
+    background-color: slategrey;
+}
+
+.blankSub{
+    display: none;
+}
+
+.subNav{
+    width: 300px;
+    height: 100%;
+    background-color: beige;
+    position: absolute;
+    left: 0;
+    display: none;
+}
+
 
 .fa-bars{
     font-size: 50px;
@@ -25,10 +43,20 @@ nav{
 
 .field{
     width: 100%;
-    min-width: 750px;
+    min-width: 400px;
     height: 100%;
     position: absolute;
     top: 60px;
+}
+
+.ball{
+    background-color: red;
+    width: 5.5em;
+    height: 5.5em;
+    position: absolute;
+    top: 60px;
+    left: 10%;
+    border-radius: 4em;
 }
 
 .d-pad{
@@ -36,7 +64,7 @@ nav{
     width: 7.5em;
     position: absolute;
     top: 60px;
-    right: 15%;
+    right: 10%;
 }
 
 .button{
